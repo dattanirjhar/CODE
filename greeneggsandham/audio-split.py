@@ -26,6 +26,6 @@ def split_audio_single_file(input_file, output_dir, segment_length_ms):
         print(f"Error processing {input_file}: {e}")
 
 # Example usage
-input_audio = "/home/nirjhar/Desktop/sunidhi/sunidhi.wav"  # Replace with your audio file path
-output_directory = "/home/nirjhar/CODE/audio_test/dataset_5s/sunidhi"  # Replace with your desired output directory
+input_audio = "/home/nirjhar/CODE/greeneggsandham/cookiepuss/shreya/shreya_lata1.wav"  # Replace with your audio file path
+output_directory = "/home/nirjhar/CODE/greeneggsandham/cookiepuss5/shreya"  # Replace with your desired output directory
 split_audio_single_file(input_audio, output_directory, segment_length_ms=5000)
